@@ -25,7 +25,7 @@ if uploaded_file:
     st.sidebar.success("File uploaded!")
 
 # --- CHAT UI ---
-st.title("🧑‍💻 Data Science AI Copilot Agent")
+st.title("🧑‍💻 Data Science AI-Agent")
 st.write("Ask any data science question about your uploaded data. The agent will analyze, visualize, and explain—no extra steps!")
 
 user_input = st.text_input("You:", key="user_input")
